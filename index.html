@@ -8,10 +8,10 @@
 
         <!-- my CSS -->
         <link rel="stylesheet" href="css/style.css">
-
+        
         <!--Let browser know website is optimized for mobile-->
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        <title>Cafe House</title>
+        <title>Coffee House</title>
     </head>
   
     <body id="home" class="scrollspy">
@@ -21,13 +21,13 @@
              <nav class="red darken-1">
              <div class="container">
               <div class="nav-wrapper">
-                <a href="#home" class="brand-logo">House Cafe</a>
+                <a href="#home" class="brand-logo">Coffee House</a>
                 <a href="#" data-target="mobile-nav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
                 <ul class="right hide-on-med-and-down">
                   <li><a href="#about">About Us</a></li>
                   <li><a href="#clients">Clients</a></li>
                   <li><a href="#services">Services</a></li>
-                  <li><a href="#portfolio">Portfolio</a></li>
+                  <li><a href="#Menu">Menu</a></li>
                   <li><a href="#contact">Contact Us</a></li>
                 </ul>
               </div>
@@ -37,34 +37,41 @@
 
           <!--sidenav-->
           <ul class="sidenav" id="mobile-nav">
-            <li><a href="">About Us</a></li>
-            <li><a href="">Clients</a></li>
-            <li><a href="">Services</a></li>
-            <li><a href="">Portfolio</a></li>
-            <li><a href="">Contact Us</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#clients">Clients</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#Menu">Menu</a></li>
+            <li><a href="#contact">Contact Us</a></li>
           </ul>
 
           <!--slider-->
           <div class="slider">
             <ul class="slides">
+                <li>
+                    <img src="assets/slider/cover.png"> 
+                    <div class="caption center-align">
+                      <h3>Ini adalah Logo Coffee House</h3>
+                      <h5 class="light text-lighten-3">"Dari Aroma Ke Lidah Hingga Jatuh ke Hati"</h5>
+                    </div>
+                    </li>
               <li>
-                <img src="assets/65827 (1).jpg"> 
+                <img src="assets/slider/cafe.jpg"> 
                 <div class="caption center-align">
-                  <h3>This Is The Front View Of The Cafe!</h3>
-                  <h5 class="light grey-text text-lighten-3">"House Cafe"</h5>
+                  <h3>Ini Adalah Tampak Depan Cafe!</h3>
+                  <h5 class="light grey-text text-lighten-3">"Coffee House"</h5>
                 </div>
               </li>
               <li>
-                <img src="assets/cup (1).jpg"> 
+                <img src="assets/slider/coffee.png"> 
                 <div class="caption right-align">
-                  <h3>One Of The Coffees In This Cafe!</h3>
-                  <h5 class="light grey-text text-lighten-3">"Picked Coffee At The Right Time"</h5>
+                  <h3>Salah Satu Kopi Di Cafe Ini!</h3>
+                  <h5 class="light grey-text text-lighten-3">"Kami Memilih Kopi Di Saat Yang Tepat"</h5>
                 </div>
               </li>
               <li>
-                <img src="assets/honey-toasts-with-walnuts-cereals (1).jpg"> 
+                <img src="assets/slider/breakfast.jpg"> 
                 <div class="caption left-align">
-                  <h3>Here Is A Menu For Breakfast!</h3>
+                  <h3>Berikut Ini Adalah Menu Untuk Sarapan!</h3>
                   <h5 class="light grey-text text-lighten-3">"Bread And Cereal"</h5>
                 </div>
               </li>
@@ -77,8 +84,8 @@
                   <div class="row">
                     <h3 class="center light grey-text text-darken-3">About Us</h3>
                     <div class="col m6 light">
-                        <h5>House Cafe</h5>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti harum nemo aperiam consequuntur nulla, sed nihil rem aliquam voluptas minima sint explicabo nisi, doloremque laudantium ut ab quis quaerat ullam.</p>
+                        <h5>Coffee House</h5>
+                        <p>Coffee House ini adalah salah satu cafe yang bisa di jadikan tempat nongkrong dan ngopi yang ada di Bandung. Coffee House ini buka dari jam 10.00 pagi hingga 08.00 malam. Di Coffee House ini menyediakan berbagai jenis coffee, breakfast, dan snack dengan harga yang terjangkau.</p>
                     </div>
                     <div class="col m6 light">
                         <p>Coffee</p>
@@ -101,20 +108,17 @@
 
             <!--Clients-->
             <div id="clients" class="parallax-container scrollspy">
-                <div class="parallax"><img src="img/slider/4.png"></div>
+                <div class="parallax"><img src="assets/slider/client.png"></div>
               
                 
               <div class="container clients">
                 <h3 class="center light white-text">Our Clients</h3>
                 <div class="row">
-                    <div class="col m4 s12 center">
-                        <img src="assets/gojek.png">
+                    <div class="col m6 s12 center">
+                        <img src="assets/client/gojek.png">
                     </div>
-                    <div class="col m4 s12 center">
-                        <img src="">
-                    </div>
-                    <div class="col m4 s12 center">
-                        <img src="">
+                    <div class="col m6 s12 center">
+                        <img src="assets/client/grab.jpeg">
                     </div>
                 </div>
               </div>
@@ -122,29 +126,29 @@
 
 
             <!--services-->
-            <section id="services" class="services grey lighten-3 scrollspy">
+            <section id="services" class="services grey lighten-5 scrollspy">
                 <div class="container">
                     <div class="row">
                         <h3 class="light center grey-text text-darken-3">Our Services</h3>
                         <div class="col m4 s12">
                             <div class="card-panel center">
-                                <i class="material-icons medium">local_drink</i>
-                                <h5></h5>
-                                <p></p>
+                                <i class="material-icons medium">account_balance</i>
+                                <h5>Lokasi</h5>
+                                <p>Cafe yang terletak strategis di tengah kota Bandung.</p>
                             </div>
                         </div>
                         <div class="col m4 s12">
                             <div class="card-panel center">
-                                <i class="material-icons medium">local_dining</i>
-                                <h5></h5>
-                                <p></p>
+                                <i class="material-icons medium">album</i>
+                                <h5>Musik</h5>
+                                <p>Cafe ini menyedikan live musik.</p>
                             </div>
                         </div>
                         <div class="col m4 s12">
                             <div class="card-panel center">
-                                <i class="material-icons medium">cake</i>
-                                <h5></h5>
-                                <p></p>
+                                <i class="material-icons medium">wifi</i>
+                                <h5>Wifi</h5>
+                                <p>Cafe ini menyedikan wifi untuk para tamu.</p>
                             </div>
                         </div>
                     </div>
@@ -153,35 +157,52 @@
 
 
             <!--portfolio-->
-            <section id="portfolio" class="portfolio scrollspy">
+            <section id="Menu" class="Menu scrollspy">
                 <div class="container">
-                    <h3 class="light center grey-text text-darken-3">Portfolio</h3>
+                    <h3 class="light center grey-text text-darken-3">Menu</h3>
+
                     <div class="row">
                         <div class="col m3 s12">
-                            <img src="" class="responsive-img materialboxed">
+                            <img src="assets/portfolio/arabica cofee.jpg" class="responsive-img materialboxed">
+                            <p class="center">Arabica Coffee</p>
+                            <p class="center">Price: 25k</p>
                         </div>
                         <div class="col m3 s12">
-                            <img src="" class="responsive-img materialboxed">
+                            <img src="assets/portfolio/latte.jpg" class="responsive-img materialboxed">
+                            <p class="center">Coffee Latte</p>
+                            <p class="center">Price: 30k</p>
                         </div>
                         <div class="col m3 s12">
-                            <img src="" class="responsive-img materialboxed">
+                            <img src="assets/portfolio/coffee ice.jpg" class="responsive-img materialboxed">
+                            <p class="center">Ice Coffee</p>
+                            <p class="center">Price: 25k</p>
                         </div>
                         <div class="col m3 s12">
-                            <img src="" class="responsive-img materialboxed">
+                            <img src="assets/portfolio/pasta.png" class="responsive-img materialboxed">
+                            <p class="center">Pasta</p>
+                            <p class="center">Price: 25k</p>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col m3 s12">
-                            <img src="" class="responsive-img materialboxed">
+                            <img src="assets/portfolio/spaghetti.png" class="responsive-img materialboxed">
+                            <p class="center">Spaghetti</p>
+                            <p class="center">Price: 25k</p>
                         </div>
                         <div class="col m3 s12">
-                            <img src="" class="responsive-img materialboxed">
+                            <img src="assets/portfolio/toast egg.png" class="responsive-img materialboxed">
+                            <p class="center">Toast Egg</p>
+                            <p class="center">Price: 30k</p>
                         </div>
                         <div class="col m3 s12">
-                            <img src="" class="responsive-img materialboxed">
+                            <img src="assets/portfolio/nasi goreng.png" class="responsive-img materialboxed">
+                            <p class="center">Nasi Goreng</p>
+                            <p class="center">Price: 25k</p>
                         </div>
                         <div class="col m3 s12">
-                            <img src="" class="responsive-img materialboxed">
+                            <img src="assets/portfolio/strawberry.jpg" class="responsive-img materialboxed">
+                            <p class="center">Strawberry Chesse Cake</p>
+                            <p class="center">Price: 35k</p>
                         </div>
                     </div>
                 </div>
@@ -197,11 +218,11 @@
                             <div class="card-panel red darken-1 center">
                                 <i class="material-icons">email</i>
                                 <h5>Contact</h5>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni, vero.</p>
+                                <p>Tulis di bawah kesan dan pesan kalian setelah datang di Coffee House.</p>
                             </div>
                             <ul class="collection width-header">
-                                <li class="collection-header center"><h4>Our Office</h4></li>
-                                <li class="collection-item">House Cafe</li>
+                                <li class="collection-header center"><h4>Our cafe</h4></li>
+                                <li class="collection-item">Coffee House</li>
                                 <li class="collection-item">JL. Buah Batu No.32, Bandung</li>
                                 <li class="collection-item">West Java, Indonesia</li>
                             </ul>
@@ -233,12 +254,17 @@
                         </div>
                     </div>
                 </div>
+                <!-- social media -->
+                <div class="container text-center">
+                    <div class="social-icons center">
+                      <a href="http://instagram.com/_ayuuputriii"><img src="assets/sosmed/instagram.png"></a>
+                    </div>
+                  </div>
             </section>
-
 
             <!--footer-->
             <footer class="red darken-1 white-text center">
-                <p class="flow-text">House Cafe. Copyright 2020.</p>
+                <p class="flow-text">Coffee House. Copyright 2020.</p>
             </footer>
 
 

@@ -18,6 +18,20 @@
     filter: drop-shadow(1px 1px 1px rgba(0,0,0,0.8));
 }
 
+#social-media {
+    background-color: white;
+    padding: 100px 0;
+}
+
+.social-icons img {
+    width: 60px;
+    transition: 0.5s;
+    padding: 5px;
+} 
+
+.social-icons a:hover img {
+    transform: translateY(-10px);
+}
 
 section, footer {
     padding: 20px 0;
