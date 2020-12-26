@@ -4,6 +4,10 @@
     text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
 }
 
+.nav-wrapper span{
+    color:Lavender;
+}
+
 .parallax-container {
     height: 20%;
 }
@@ -24,9 +28,10 @@
 }
 
 .social-icons img {
-    width: 60px;
+    width: 40px;
     transition: 0.5s;
     padding: 5px;
+    position: left;
 } 
 
 .social-icons a:hover img {
